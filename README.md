@@ -35,23 +35,4 @@ Users can ask natural-language questions such as:
         cd project-samarth
       - python-dotenv — for environment variables
 
-2️⃣ (Optional) Create Virtual Environment and Activate
-        python -m venv venv
-        venv\Scripts\activate
-
-3️⃣ Install Dependencies
-        pip install -r requirements.txt
-
-4️⃣ Get Your API Key
-     👉 Go to https://data.gov.in
-     👉 Login or create a free account
-     👉 Copy your API key from My Account → API Keys
-
-5️⃣ Create .env File in the project root and add:
-       (You can create manually or use echo command below)
-       echo API_KEY=your_api_key_here > .env
-       echo RAIN_PATH=data/datafile.ods >> .env
-
-6️⃣ Run the App
-       streamlit run app.py
 
