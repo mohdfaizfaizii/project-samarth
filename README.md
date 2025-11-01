@@ -19,7 +19,7 @@ Users can ask natural-language questions such as:
 
 ---
 
-#🧰 Tech Stack
+🧰 Tech Stack
 - Python 3
 - Streamlit — for interactive web app
 - Pandas — for data manipulation
@@ -31,7 +31,27 @@ Users can ask natural-language questions such as:
 
 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/Agriculture-Climate-QA.git
-cd Agriculture-Climate-QA
-- python-dotenv — for environment variables
+        git clone https://github.com/mohdfaizfaizii/project-samarth.git
+        cd project-samarth
+      - python-dotenv — for environment variables
+
+2️⃣ (Optional) Create Virtual Environment and Activate
+        python -m venv venv
+        venv\Scripts\activate
+
+3️⃣ Install Dependencies
+        pip install -r requirements.txt
+
+4️⃣ Get Your API Key
+     👉 Go to https://data.gov.in
+     👉 Login or create a free account
+     👉 Copy your API key from My Account → API Keys
+
+5️⃣ Create .env File in the project root and add:
+       (You can create manually or use echo command below)
+       echo API_KEY=your_api_key_here > .env
+       echo RAIN_PATH=data/datafile.ods >> .env
+
+6️⃣ Run the App
+       streamlit run app.py
 
