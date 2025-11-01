@@ -81,11 +81,11 @@ streamlit run app.py
 ```
 project-samarth/
 │
-├── app.py              # Main Streamlit app
-├── data_utils.py       # Helper functions (API + data)
-├── data/               # Local rainfall dataset
+├── app.py              
+├── data_utils.py       
+├── data/               
 │   └── datafile.ods
-├── .env                # API key file (not uploaded)
-├── requirements.txt    # Dependencies list
-└── README.md           # Documentation file
+├── .env                
+├── requirements.txt    
+└── README.md           
 ```
