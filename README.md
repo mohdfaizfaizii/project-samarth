@@ -89,11 +89,3 @@ project-samarth/
 ├── requirements.txt    # Dependencies list
 └── README.md           # Documentation file
 ```
-
-```
-
----
-
-✅ **Bas is README.md ko apne repo me paste kar de.**  
-GitHub pe ye clean aur copy button wale blocks me dikhega.
-```
