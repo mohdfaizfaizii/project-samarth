@@ -35,4 +35,8 @@ Users can ask natural-language questions such as:
         cd project-samarth
       - python-dotenv — for environment variables
 
-
+2️⃣ (Optional) Create Virtual Environment and Activate
+python -m venv venv  
+venv\Scripts\activate         # Windows  
+# or  
+source venv/bin/activate      # Mac/Linux  
